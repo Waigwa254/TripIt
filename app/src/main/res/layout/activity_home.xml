@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="114dp"
+                android:padding="40dp">
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="420dp"
+                    android:layout_height="74dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:paddingLeft="120dp"
+                    android:text="TRIP IT"
+                    android:textColor="?android:attr/colorActivatedHighlight"
+                    android:textSize="34sp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <SearchView
+                android:id="@+id/search_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+
+                android:background="@drawable/round_border"
+                android:iconifiedByDefault="false"
+                android:queryBackground="@color/transparent"
+                android:queryHint="Search Destination"
+                android:theme="@style/ThemeOverlay.Search" />
+
+
+            <Button
+                android:id="@+id/btn_map"
+                android:layout_width="111dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="300dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/round_bg"
+                android:paddingLeft="10dp"
+                android:text="MAPS" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:fontFamily="sans-serif-black"
+                android:text="Explore"
+                android:textColor="#000"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/uphill"
+                    android:paddingLeft="50dp" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/nature" />
+
+                <ImageView
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/beaches" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:text="Wildlife $ Nature"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img_maasai"
+                    android:layout_width="117dp"
+                    android:layout_height="82dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/maasimara"
+                    android:paddingLeft="50dp" />
+
+                <ImageView
+                    android:id="@+id/png_amboseli"
+                    android:layout_width="114dp"
+                    android:layout_height="89dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/amboseli" />
+
+                <ImageView
+                    android:id="@+id/png_tsavo"
+                    android:layout_width="113dp"
+                    android:layout_height="107dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/tsavo" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:text="MOUNTAINS"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/png_njaro"
+                    android:layout_width="121dp"
+                    android:layout_height="77dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/kilimanjaro"
+                    android:paddingLeft="50dp" />
+
+                <ImageView
+                    android:id="@+id/png_valley"
+                    android:layout_width="122dp"
+                    android:layout_height="98dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/riftvalley" />
+
+                <ImageView
+                    android:id="@+id/png_mkenya"
+                    android:layout_width="124dp"
+                    android:layout_height="90dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/mttkenya" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="30dp"
+                android:text="CULTURE"
+                android:textColor="#000"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="142dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/foodcu"
+                    android:layout_width="127dp"
+                    android:layout_height="95dp"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/food"
+                    android:paddingLeft="50dp" />
+
+                <ImageView
+                    android:id="@+id/clothes"
+                    android:layout_width="131dp"
+                    android:layout_height="92dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/dressing" />
+
+                <ImageView
+                    android:id="@+id/language"
+                    android:layout_width="115dp"
+                    android:layout_height="86dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="40dp"
+                    android:background="@drawable/language" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
+
+
+
+
